@@ -1,0 +1,27 @@
+Sorter Class ver 1.0
+Abolfazl Danayi
+
+May 2016
+
+This class is designed in orther to sort files saved in a folder into another folders named by types.
+In order to use it, just make an instance of class sorter.
+
+  import sorter
+  sor = sorter.Sorter('C:\unsorted', 'C:\sorted')
+  sor.sort()
+
+after calling the sort() method, all files will be sorted in the class.
+
+Output sorted folders:
+movie_ext_list = ['mpg', 'mpeg', 'avi', 'mov', 'wmv', 'asx',\
+                  'wma', 'asf', 'm4v', 'mkv', 'asf', 'mp2', 'mp4']
+
+audio_ext_list = ['mp3', 'm3u', 'm3u8', 'pls', 'cda', 'flac', 'mid',\
+                  'midi', 'acc', 'm4a', 'wav', 'acc', 'ogg', 'wpl']
+
+image_ext_list = ['jpg', 'jpeg', 'png', 'bmp', 'tif', 'tiff', 'gif',\
+                  'psd', 'raw', 'ico']
+
+docs_ext_list = ['docx', 'doc', 'pdf', 'txt', 'rtf', 'docm', 'wps',\
+                 'xls', 'xlsx', 'xlsm', 'ppt', 'csv', 'htm', 'html', 'xml', 'mht',\
+                 'mhtml', 'xps']
